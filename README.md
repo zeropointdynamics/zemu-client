@@ -1,6 +1,6 @@
 # Zemu Client - Binary Tracing in the Cloud
 
-This is the *preview* of the Zemu cloud client for generating dynamic binary traces. It provides `strace`-like functionality for Linux/IoT binaries (x86, ARM and preliminary MIPS support), as well as an instruction-level `overlay` for execution visualization in IDA Pro.
+This is the *preview* of the Zemu cloud client for generating dynamic binary traces. It provides `strace`-like functionality for Linux/IoT binaries, as well as an instruction-level `overlay` for execution visualization in IDA Pro.
 
 ## How it Works
 
@@ -17,6 +17,10 @@ This client script submits binaries to an *Azure Function* running Zemu, which a
 
 ## Setup
 
+### Client
+
+*The client runs on any platform supporting Python.*
+
 Paste your API key into `zemu.py`. For example, replace:
 
 ```
@@ -32,6 +36,12 @@ API_KEY = os.environ.get(
 ```
 
 *Note: By default, API keys limit the submission rate to 1 analysis per second.*
+
+### IDA Pro Plugin
+
+*The plugin requires IDA Pro 7.0 or above.*
+
+To install the plugin, copy `ida-plugin/zemu_ida.py` into the IDA Pro `plugins` directory. In Windows, for example, this directory is located at `C:\Program Files\IDA 7.0\plugins`. In Linux, the path is `~/.idapro/plugins`.
 
 ## Usage
 
