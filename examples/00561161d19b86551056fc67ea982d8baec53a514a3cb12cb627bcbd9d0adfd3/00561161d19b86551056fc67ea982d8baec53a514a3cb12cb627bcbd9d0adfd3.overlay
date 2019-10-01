@@ -1,0 +1,2211 @@
+DISAS
+{
+    "comments": [
+        {
+            "address": 334528,
+            "text": "ip = 0x51aac",
+            "thread_id": 29696
+        },
+        {
+            "address": 334532,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334536,
+            "text": "sl = 0x51cc0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334540,
+            "text": "fp = 0x51d9c",
+            "thread_id": 29696
+        },
+        {
+            "address": 334544,
+            "text": "r0 = 0xd0000",
+            "thread_id": 29696
+        },
+        {
+            "address": 334548,
+            "text": "sb = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 334552,
+            "text": "r1 = 0x4aaac",
+            "thread_id": 29696
+        },
+        {
+            "address": 334556,
+            "text": "r3 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334560,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334564,
+            "text": "r2 = 0x7",
+            "thread_id": 29696
+        },
+        {
+            "address": 334568,
+            "text": "r3 = load(0x51abc) = 0x22",
+            "thread_id": 29696
+        },
+        {
+            "address": 334572,
+            "text": "r5 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334576,
+            "text": "r4 = 0xffffffff",
+            "thread_id": 29696
+        },
+        {
+            "address": 334580,
+            "text": "r3 = 0x32",
+            "thread_id": 29696
+        },
+        {
+            "address": 334584,
+            "text": "r7 = 0xc0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334588,
+            "text": "mmap2",
+            "thread_id": 29696
+        },
+        {
+            "address": 334592,
+            "text": "0xd0000 vs 0x1000",
+            "thread_id": 29696
+        },
+        {
+            "address": 334596,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334600,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334604,
+            "text": "0x8020 vs 0x51cc0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334608,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334612,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334616,
+            "text": "r4 = 0xc8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 334620,
+            "text": "r1 = load(0xff08febc) = 0x22",
+            "thread_id": 29696
+        },
+        {
+            "address": 334624,
+            "text": "r5 = 0x51b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 334628,
+            "text": "store(0x22, 0x119cc4)",
+            "thread_id": 29696
+        },
+        {
+            "address": 334632,
+            "text": "lr = 0x119cc4",
+            "thread_id": 29696
+        },
+        {
+            "address": 334636,
+            "text": "r5 = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 334640,
+            "text": "r0 = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 334644,
+            "text": "r1 = 0x119cc0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334648,
+            "text": "r2 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 334652,
+            "text": "r7 = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 334656,
+            "text": "r7 = 0xf0002",
+            "thread_id": 29696
+        },
+        {
+            "address": 334660,
+            "text": "cacheflush",
+            "thread_id": 29696
+        },
+        {
+            "address": 334664,
+            "text": "sb = load(0x51aac) = 0x49aac",
+            "thread_id": 29696
+        },
+        {
+            "address": 334668,
+            "text": "sb = 0x49a20",
+            "thread_id": 29696
+        },
+        {
+            "address": 334672,
+            "text": "sl = 0x808c",
+            "thread_id": 29696
+        },
+        {
+            "address": 334676,
+            "text": "sl = 0xd008c",
+            "thread_id": 29696
+        },
+        {
+            "address": 334680,
+            "text": "r0 = load(0x51da4) = 0x5009",
+            "thread_id": 29696
+        },
+        {
+            "address": 334684,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334688,
+            "text": "r3 = load(0x51d9c) = 0x9a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 334692,
+            "text": "r0 = 0x51da8",
+            "thread_id": 29696
+        },
+        {
+            "address": 334696,
+            "text": "r1 = load(0x51da0) = 0x67a",
+            "thread_id": 29696
+        },
+        {
+            "address": 334700,
+            "text": "r2 = 0x119cc4",
+            "thread_id": 29696
+        },
+        {
+            "address": 334704,
+            "text": "store(0x9a8, 0xff08feb4)",
+            "thread_id": 29696
+        },
+        {
+            "address": 334708,
+            "text": "r3 = 0xff08feb4",
+            "thread_id": 29696
+        },
+        {
+            "address": 334712,
+            "text": "lr = 0x51b80",
+            "thread_id": 29696
+        },
+        {
+            "address": 334716,
+            "text": "pc = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153924,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153928,
+            "text": "r7 = 0x52422",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153932,
+            "text": "r5 = 0xffffffff",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153936,
+            "text": "r4 = 0x80000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153940,
+            "text": "<0x119bec>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154028,
+            "text": "r4 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154032,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154004,
+            "text": "r4 = load(0x51da9) = 0xff",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154008,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154012,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154016,
+            "text": "pc = 0x119bf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154036,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154020,
+            "text": "r3 = load(0x51daa) = 0xd8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154036,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154040,
+            "text": "r1 = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154044,
+            "text": "<0x119c10>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154064,
+            "text": "r4 = 0x80000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154068,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154072,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154076,
+            "text": "r4 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154016,
+            "text": "pc = 0x119c24",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154084,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154088,
+            "text": "r3 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154092,
+            "text": "r1 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154096,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154100,
+            "text": "r5 = load(0x51dba) = 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154104,
+            "text": "r5 = 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154108,
+            "text": "r5 = 0xfffffff9",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154112,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154116,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154120,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154188,
+            "text": "r4 = 0xda000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154192,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154196,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154200,
+            "text": "r1 = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154204,
+            "text": "0xfffffffc vs 0x500",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154208,
+            "text": "r1 = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154212,
+            "text": "r3 = 0x119cd4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154216,
+            "text": "r3 = load(0x-1) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154220,
+            "text": "r3 = load(0x100119cce) = 0x4d",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154224,
+            "text": "store(0x4d, 0x119cd3)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154228,
+            "text": "r1 = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154232,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154096,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154128,
+            "text": "r4 = 0xf0000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154132,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154120,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154124,
+            "text": "<0x119c5c>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154140,
+            "text": "r1 = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154144,
+            "text": "r4 = 0x80000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154148,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154152,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154156,
+            "text": "r4 = 0xc8000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154160,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154164,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154168,
+            "text": "r4 = 0x90000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154172,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154176,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154180,
+            "text": "r1 = 0x7",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154084,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154048,
+            "text": "r1 = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154052,
+            "text": "r4 = 0x80000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154056,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154112,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153944,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153948,
+            "text": "r0 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153952,
+            "text": "r2 = 0x9a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153956,
+            "text": "store(0x9a8, 0xff08feb4)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153960,
+            "text": "r4 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153964,
+            "text": "r0 = 0x119cc4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153968,
+            "text": "r1 = 0x11a66c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153972,
+            "text": "r2 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153976,
+            "text": "ip = 0x52422",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153980,
+            "text": "r7 = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153984,
+            "text": "r7 = 0xf0002",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153988,
+            "text": "cacheflush",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153992,
+            "text": "r7 = 0x52422",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153996,
+            "text": "r0 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154000,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 334720,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154244,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154248,
+            "text": "r1 = 0xff08fec4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154252,
+            "text": "sp = 0xff08eec4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154256,
+            "text": "sp = 0xff08eebc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154260,
+            "text": "r0 = 0xff08eebc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154264,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154268,
+            "text": "fp = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154272,
+            "text": "r2 = load(0xff08fec8) = 0xff08ff55",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154276,
+            "text": "fp = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154280,
+            "text": "store(0xff08ff55, 0xff08eec0)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154284,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154288,
+            "text": "r2 = load(0xff08fed0) = 0xff08ff6d",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154292,
+            "text": "store(0xff08ff6d, 0xff08eec8)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154296,
+            "text": "0xff08ff6d vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154300,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154304,
+            "text": "r4 = 0xff08eec8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154308,
+            "text": "store(0x0, 0xff08eed0)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154312,
+            "text": "r3 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154316,
+            "text": "r2 = load(0xff08fed8) = 0x8034",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154320,
+            "text": "store(0x8034, 0xff08eed4)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154324,
+            "text": "r2 = load(0xff08fedc) = 0x3",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154328,
+            "text": "store(0x3, 0xff08eed8)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154332,
+            "text": "0x3 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154336,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154340,
+            "text": "store(0xff08ef50, 0xff08eeb0)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154344,
+            "text": "store(0xff08ef50, 0xff08eec8)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154348,
+            "text": "r2 = load(0x119de4) = 0x3d202020",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154352,
+            "text": "store(0x3d202020, 0xff08ef54)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154356,
+            "text": "r2 = 0x1000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154360,
+            "text": "r1 = 0xff08ef54",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154364,
+            "text": "r0 = 0x119dec",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154368,
+            "text": "r2 = 0xfff",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154372,
+            "text": "<0x119eec>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154796,
+            "text": "ip = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154800,
+            "text": "r7 = 0x55",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154804,
+            "text": "readlink",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154808,
+            "text": "r7 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154812,
+            "text": "pc = 0x119d48",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154376,
+            "text": "0x18 vs 0x1000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154380,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154384,
+            "text": "r2 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154388,
+            "text": "store(0x0, 0xff08ef6c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154392,
+            "text": "sp = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154396,
+            "text": "r4 = 0x49a20",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154400,
+            "text": "sb = load(0xd0090) = 0x77",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154404,
+            "text": "r8 = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154408,
+            "text": "r7 = load(0xd008c) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154412,
+            "text": "r6 = 0x119dfc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154416,
+            "text": "sb = 0x83",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154420,
+            "text": "fp = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154424,
+            "text": "ip = load(0x119f04) = 0xef000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154428,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154432,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154436,
+            "text": "<0x11a4ec>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156332,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156336,
+            "text": "sp = 0xff08e468",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156340,
+            "text": "r7 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156344,
+            "text": "r5 = 0x49a20",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156348,
+            "text": "r0 = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156352,
+            "text": "r1 = 0xff08e490",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156356,
+            "text": "sl = 0x119dfc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156360,
+            "text": "r3 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156364,
+            "text": "r6 = load(0xff08e494) = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156368,
+            "text": "r8 = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156372,
+            "text": "r4 = load(0xff08e498) = 0x83",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156376,
+            "text": "<0x11a010>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155088,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155092,
+            "text": "r5 = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155096,
+            "text": "sp = 0xff08e440",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155100,
+            "text": "r4 = 0xff08e490",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155104,
+            "text": "r7 = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155108,
+            "text": "r6 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155112,
+            "text": "<0x11a138>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155384,
+            "text": "r3 = load(0xff08e490) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155388,
+            "text": "0xf4 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155392,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155116,
+            "text": "r1 = 0xff08e444",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155120,
+            "text": "r0 = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155124,
+            "text": "r2 = 0xc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155128,
+            "text": "<0x119fb0>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154992,
+            "text": "r3 = load(0xff08e498) = 0x83",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154996,
+            "text": "store(0x11a03c, 0xff08e438)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155000,
+            "text": "0x83 vs 0xc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155004,
+            "text": "r3 = load(0xff08e49c) = 0xd008c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155008,
+            "text": "lr = 0xc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155012,
+            "text": "ip = 0xd008c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155016,
+            "text": "r2 = 0xc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155020,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155040,
+            "text": "r2 = 0xb",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155044,
+            "text": "0xb vs 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155048,
+            "text": "ip = 0xd008d",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155052,
+            "text": "r1 = 0xff08e445",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155056,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155032,
+            "text": "r3 = load(0xd008c) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155056,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155060,
+            "text": "r2 = load(0xff08e49c) = 0xd008c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155064,
+            "text": "r3 = load(0xff08e498) = 0x83",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155068,
+            "text": "r2 = 0xd0098",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155072,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155076,
+            "text": "store(0x77, 0xff08e498)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155080,
+            "text": "store(0xd0098, 0xff08e49c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155084,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155132,
+            "text": "ip = load(0xff08e444) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155136,
+            "text": "r1 = load(0xff08e448) = 0x77",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155140,
+            "text": "0xf4 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155144,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155176,
+            "text": "0x77 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155180,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155192,
+            "text": "0x77 vs 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155196,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155200,
+            "text": "r3 = load(0xff08e490) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155204,
+            "text": "0xf4 vs 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155208,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155212,
+            "text": "0x77 vs 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155216,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155220,
+            "text": "store(0xf4, 0xff08e450)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155224,
+            "text": "ip = load(0xff08e44c) = 0x9",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155228,
+            "text": "r0 = load(0xff08e49c) = 0xd0098",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155232,
+            "text": "r2 = load(0xff08e494) = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155236,
+            "text": "r3 = 0xff08e450",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155240,
+            "text": "store(0x9, 0xff08e440)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153988,
+            "text": "cacheflush",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154000,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155248,
+            "text": "0x0 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155252,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155256,
+            "text": "r1 = load(0xff08e450) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155260,
+            "text": "r3 = load(0xff08e444) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155264,
+            "text": "0xf4 vs 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155268,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155272,
+            "text": "r2 = load(0xff08e44d) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155276,
+            "text": "0x0 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155280,
+            "text": "0x0 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155284,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155324,
+            "text": "r3 = load(0xff08e448) = 0x77",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155328,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155332,
+            "text": "r2 = 0xd010f",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155336,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155340,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155344,
+            "text": "<0x11a124>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155364,
+            "text": "r3 = load(0xff08e444) = 0xf4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155368,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155372,
+            "text": "r2 = 0xff08e59c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155376,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155392,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155396,
+            "text": "sp = 0xff08e454",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155400,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156380,
+            "text": "r3 = load(0xff08e49c) = 0xd010f",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156384,
+            "text": "r1 = 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156388,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156392,
+            "text": "r2 = load(0xff08e4d4) = 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156396,
+            "text": "r0 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156400,
+            "text": "store(0xd008c, 0xff08e49c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156404,
+            "text": "store(0x49a20, 0xff08e498)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156408,
+            "text": "<0x119f90>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154960,
+            "text": "0xff08eed0 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154964,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154968,
+            "text": "r3 = load(0xff08eed0) = 0x3",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154972,
+            "text": "0x3 vs 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154976,
+            "text": "r0 = 0xff08eed8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154980,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154984,
+            "text": "store(0x6, 0xff08eee4)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154988,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156412,
+            "text": "r1 = 0x4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156416,
+            "text": "r0 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156420,
+            "text": "r2 = load(0xff08e4d2) = 0x20",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154988,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156428,
+            "text": "r5 = 0xff08e4dc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156432,
+            "text": "r1 = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156436,
+            "text": "r3 = load(0xff08e4dc) = 0x70000001",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156440,
+            "text": "r1 = 0xff08e4c8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156444,
+            "text": "0x70000001 vs 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156448,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156452,
+            "text": "r2 = load(0xff08e4a0) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156456,
+            "text": "r3 = load(0xff08e504) = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156460,
+            "text": "r2 = 0x34",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156464,
+            "text": "r2 = 0x8034",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156468,
+            "text": "r0 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156472,
+            "text": "r1 = 0x3",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154988,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156480,
+            "text": "r3 = load(0xff08e4a4) = 0xef000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156484,
+            "text": "ip = 0xff08e474",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156488,
+            "text": "store(0xef000000, 0xff08e46c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156492,
+            "text": "r1 = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156496,
+            "text": "r2 = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156500,
+            "text": "r3 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156504,
+            "text": "r0 = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156508,
+            "text": "store(0xff08e470, 0xff08e468)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156512,
+            "text": "store(0x119dfc, 0xff08e46c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156516,
+            "text": "<0x11a150>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155408,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155412,
+            "text": "sb = 0xff08e4a8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155416,
+            "text": "r1 = load(0x50) = 0x34",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155420,
+            "text": "sp = 0xff08e40c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155424,
+            "text": "r6 = 0xff08e4dc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155428,
+            "text": "r1 = load(0xff08e468) = 0xff08e470",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155432,
+            "text": "ip = load(0xff08e4b8) = 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155436,
+            "text": "r1 = load(0xef000000) = 0xef000000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155440,
+            "text": "lr = load(0xff08e4d4) = 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155444,
+            "text": "0x2 vs 0x2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155448,
+            "text": "store(0xef000000, 0xff08e428)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155452,
+            "text": "store(0x119b84, 0xff08e41c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155456,
+            "text": "r5 = 0x10",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155460,
+            "text": "r5 = 0x10",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155464,
+            "text": "lr = 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155468,
+            "text": "r1 = 0xff08e4dc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155472,
+            "text": "r0 = 0xffffffff",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155476,
+            "text": "ip = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155480,
+            "text": "store(0xff08e498, 0xff08e418)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155484,
+            "text": "store(0xff08eed0, 0xff08e414)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155488,
+            "text": "<0x11a1d4>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155540,
+            "text": "0x5 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155544,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155492,
+            "text": "r3 = load(0xff08e4dc) = 0x70000001",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155496,
+            "text": "0x70000001 vs 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155500,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155532,
+            "text": "r1 = 0xff08e4fc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155500,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155504,
+            "text": "r3 = load(0xff08e504) = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155508,
+            "text": "r2 = load(0xff08e510) = 0xa80cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155512,
+            "text": "0xffffffff vs 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155516,
+            "text": "r0 = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155520,
+            "text": "r3 = 0xb00cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155524,
+            "text": "0x0 vs 0xb00cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155544,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155548,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155552,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155556,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155560,
+            "text": "r3 = 0xbe0e8",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155564,
+            "text": "r3 = 0xbe0f7",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155568,
+            "text": "r2 = 0x10",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155572,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155576,
+            "text": "0x10 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155580,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155584,
+            "text": "store(0xbe000, 0xff08e438)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155588,
+            "text": "store(0x8000, 0xff08e430)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155592,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155616,
+            "text": "r2 = load(0xff08e430) = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155620,
+            "text": "r3 = 0x34",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155624,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155628,
+            "text": "ip = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155632,
+            "text": "ip = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155636,
+            "text": "r1 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155640,
+            "text": "r5 = 0xff08e4fc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155644,
+            "text": "store(0x0, 0xff08e420)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155648,
+            "text": "store(0x0, 0xff08e434)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155652,
+            "text": "store(0x0, 0xff08e42c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155656,
+            "text": "<0x11a470>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156208,
+            "text": "r3 = load(0xff08e4d4) = 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156212,
+            "text": "r2 = load(0xff08e42c) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156216,
+            "text": "0x0 vs 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156220,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155660,
+            "text": "r2 = load(0xff08e418) = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155664,
+            "text": "0xff08e498 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155668,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155672,
+            "text": "r3 = load(0xff08e4dc) = 0x70000001",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155676,
+            "text": "0x70000001 vs 0x6",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155680,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155712,
+            "text": "r3 = load(0xff08e4dc) = 0x70000001",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155716,
+            "text": "0x70000001 vs 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155720,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156192,
+            "text": "r1 = load(0xff08e42c) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156196,
+            "text": "r5 = 0xff08e51c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1156200,
+            "text": "r1 = 0x1",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155720,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155724,
+            "text": "r3 = load(0xff08e514) = 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155728,
+            "text": "r2 = load(0x11a4e0) = 0x73516240",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155732,
+            "text": "r3 = 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155736,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155740,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155744,
+            "text": "ip = load(0xff08e420) = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155748,
+            "text": "r3 = load(0xff08e504) = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155752,
+            "text": "r2 = load(0xff08e50c) = 0xa80cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155756,
+            "text": "fp = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155760,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155764,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155768,
+            "text": "r1 = load(0xff08e418) = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155772,
+            "text": "store(0xa80cc, 0xff08e43c)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155776,
+            "text": "r8 = 0xa80cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155780,
+            "text": "r2 = load(0xff08e510) = 0xa80cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155784,
+            "text": "0xff08e498 vs 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155788,
+            "text": "store(0x8000, 0xff08e440)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155792,
+            "text": "sl = 0x5",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155796,
+            "text": "store(0xa80cc, 0xff08e424)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155800,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155804,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155808,
+            "text": "r0 = 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155812,
+            "text": "r1 = 0xa80cc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155816,
+            "text": "r2 = 0x7",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155820,
+            "text": "r3 = 0x10",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155824,
+            "text": "<0x119f74>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154932,
+            "text": "ip = load(0x119cbc) = 0x22",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154936,
+            "text": "store(0xff08e51c, 0xff08e404)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154940,
+            "text": "r5 = 0x0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154944,
+            "text": "store(0x735, 0xff08e400)",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154948,
+            "text": "r4 = 0xffffffff",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154952,
+            "text": "r3 = 0x32",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154956,
+            "text": "<0x119f58>",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154904,
+            "text": "ip = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154908,
+            "text": "r7 = 0xc0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154912,
+            "text": "mmap2",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154916,
+            "text": "r7 = 0xff08eed0",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154920,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154924,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1154928,
+            "text": "pc = 0x11a2f4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155828,
+            "text": "0x8000 vs 0x8000",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155832,
+            "text": ".",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155836,
+            "text": "ip = load(0xff08e46c) = 0x119dfc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155840,
+            "text": "r3 = 0x4",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155844,
+            "text": "r3 = 0x119dfc",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155848,
+            "text": "r0 = load(0xff08e418) = 0xff08e498",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155852,
+            "text": "r1 = 0xff08e43c",
+            "thread_id": 29696
+        },
+        {
+            "address": 1155856,
+            "text": "r2 = load(0xff08e41c) = 0x119b84",
+            "thread_id": 29696
+        },
+        {
+            "address": 1153988,
+            "text": "cacheflush",
+            "thread_id": 29696
+        }
+    ],
+    "entrypoint": 334528
+}
