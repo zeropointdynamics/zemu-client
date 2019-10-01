@@ -1,6 +1,19 @@
 # Zemu Client - Binary Tracing in the Cloud
 
-This is the *preview* version of the Zemu cloud client for generating dynamic binary traces. It provides `strace`-like functionality for Linux/IoT binaries (x86, ARM and preliminary MIPS support), as well as an instruction-level `overlay` for execution visualization in IDA Pro.
+This is the *preview* of the Zemu cloud client for generating dynamic binary traces. It provides `strace`-like functionality for Linux/IoT binaries (x86, ARM and preliminary MIPS support), as well as an instruction-level `overlay` for execution visualization in IDA Pro.
+
+## How it Works
+
+Zemu is a lightweight, high-speed, emulator for user space binaries. It has a similar use-case to QEMU user-mode emulation. However, whereas QEMU relies on native host syscall execution, Zemu emulates the syscalls as well. This gives Zemu the flexibility to emulate binaries designed to run multiple different platforms, regardless of the host system, as well as the ability to sandbox and modify exection on-the-fly. At the same time, it does not require full system virtualization, and thus scales well in terms of memory and configuration overhead.
+
+This client script submits binaries to an *Azure Function* running Zemu, which automatically scales-out based on the total demand.
+
+## Current Support Status
+
+|         | x86     | x86-64  | ARM 32-bit | ARM 64-bit | MIPS |
+|---|---|---|---|---|---|
+| Windows (PE) | &#9745; | &#9744; | &#9744; | &#9744; | &#9744; |
+| Linux (ELF)   | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; |
 
 ## Setup
 
@@ -17,6 +30,8 @@ with your API key:
 API_KEY = os.environ.get(
     'ZEMU_API_KEY', 'c929270f53a0c27162659c932746fbe3')
 ```
+
+*Note: By default, API keys limit the submission rate to 1 analysis per second.*
 
 ## Usage
 
