@@ -17,11 +17,54 @@ ___note that we do not provide any malware___
 
 To generate the strace from a sample named `malware.bin`
 ```
-python zemu.py strace malware.bin > malware.strace
+$ python zemu.py strace malware.bin > malware.strace
 ```
 
 We can generate the strace for different dates by passing the `--date` argument
 ```
-python zemu.py strace malware.bin --date 2019-10-01 > malware_10_1.strace
-python zemu.py strace malware.bin --date 2019-10-02 > malware_10_2.strace
+$ python zemu.py strace malware.bin --date 2018-10-01 > malware_last_year.strace
+```
+
+For this particular variant of mirai, we can use the `--date` arg to observe the unique domains generated on different days
+
+Domain generated on October 1, 2019
+```
+$ python zemu.py strace malware.bin --date 2019-10-01 | grep DNS
+
+Zemu Copyright (c) 2019 Zeropoint Dynamics, LLC
+
+Submitting.................done.
+Queued. Awaiting results...done.
+
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: umeffttjhcln.tech
+[7401_thread_0] [INFO] DNS Request: umeffttjhcln.tech
+[7401_thread_0] [INFO] DNS Request: umeffttjhcln.tech
+[7401_thread_0] [INFO] DNS Request: umeffttjhcln.tech
+[7401_thread_0] [INFO] DNS Request: umeffttjhcln.tech
+```
+
+Domain generated on October 2nd, 2019
+```
+$ python zemu.py strace malware.bin --date 2019-10-02 | grep DNS
+
+Zemu Copyright (c) 2019 Zeropoint Dynamics, LLC
+
+Submitting.................done.
+Queued. Awaiting results...done.
+
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: zugzwang.me
+[7401_thread_0] [INFO] DNS Request: trhewjxxeyjm.tech
+[7401_thread_0] [INFO] DNS Request: trhewjxxeyjm.tech
+[7401_thread_0] [INFO] DNS Request: trhewjxxeyjm.tech
+[7401_thread_0] [INFO] DNS Request: trhewjxxeyjm.tech
+[7401_thread_0] [INFO] DNS Request: trhewjxxeyjm.tech
 ```
