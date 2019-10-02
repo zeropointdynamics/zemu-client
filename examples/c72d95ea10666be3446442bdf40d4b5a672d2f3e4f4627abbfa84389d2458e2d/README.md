@@ -11,4 +11,17 @@ Unlike previous analysis, however, we are able to emulate many years of executio
 - There is only a _single_ domain generated from November 1st to December 3rd of every year.
 - Only _two_ TLDs are ever used (tech/online), as opposed to the three TLDs discovered by Netlab (tech/online/support)
 
-Upon further reverse engineering, we suspect that the reason for these two behaviors are due to a bug in the original DGA implementation. We believe that _intended_ behavior includes random domains betweeen November 1st and December 3rd, as well as using the third TLD mentioned above (support). 
+### Example Usage
+
+___note that we do not provide any malware___
+
+To generate the strace from a sample named `malware.bin`
+```
+python zemu.py strace malware.bin > malware.strace
+```
+
+We can generate the strace for different dates by passing the `--date` argument
+```
+python zemu.py strace malware.bin --date 2019-10-01 > malware_10_1.strace
+python zemu.py strace malware.bin --date 2019-10-02 > malware_10_2.strace
+```
