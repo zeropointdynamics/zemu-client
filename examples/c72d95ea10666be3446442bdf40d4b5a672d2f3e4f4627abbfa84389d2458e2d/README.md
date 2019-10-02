@@ -10,3 +10,5 @@ Unlike previous analysis, however, we are able to emulate many years of executio
 
 - There is only a _single_ domain generated from November 1st to December 3rd of every year.
 - Only _two_ TLDs are ever used (tech/online), as opposed to the three TLDs discovered by Netlab (tech/online/support)
+
+Upon further reverse engineering, we suspect that the reason for these two behaviors are due to a bug in the original DGA implementation. We believe that _intended_ behavior includes random domains betweeen November 1st and December 3rd, as well as using the third TLD mentioned above (support). 
