@@ -72,7 +72,7 @@ Python is required. Example usage and output:
 The `strace` functionality provides output similar to the Linux utility. The first column indicates the calling thread (e.g. `main`, `thread1`, etc.), the second column indicates the return address post-syscall, followed by the `syscall` itself with arguments and return value.
 
 ```
-python zemu.py strace static_elf_arm_helloworld
+$ python zemu.py strace testdata/static_elf_arm_helloworld
 
 Zemu Copyright (c) 2019 Zeropoint Dynamics, LLC
 
@@ -96,4 +96,21 @@ Queued. Awaiting results...done.
 
 ### Instruction-level Overlays in IDA Pro
 
-TODO
+The `overlay` functionality provides JSON output containing information about the functions and instructions executed, as well as register and memory values at each instruction. First, generate the overlay file:
+
+```
+$ python zemu.py overlay testdata/static_elf_arm_helloworld > static_elf_arm_helloworld.overlay
+
+Zemu Copyright (c) 2019 Zeropoint Dynamics, LLC
+
+Submitting.................done.
+Queued. Awaiting results...done.
+```
+
+Then, open the binary in IDA Pro and select *View->Load Zemu Overlay...* from the menu:
+
+![Load Zemu Overlay](https://github.com/zeropointdynamics/zemu-client/raw/master/images/ida-plugin-load-overlay.png)
+
+Select the overlay you just generated and press *Open*. The instructions executed in the run will now be highlighted, with comments added indicating register and memory values at the time of instruction execution (note that these values are from the *first* execution of the instruction). Functions that were executed will be now be prefixed with `zmu_`.
+
+![Zemu Overlay](https://github.com/zeropointdynamics/zemu-client/raw/master/images/ida-plugin-overlay.png)
