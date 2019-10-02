@@ -24,7 +24,7 @@ SOFTWARE.
 '''
 
 
-import os
+import os, datetime
 
 API_KEY = os.environ.get(
     'ZEMU_API_KEY', 'PASTE_YOUR_API_KEY_HERE')
@@ -67,6 +67,7 @@ Examples:
                         help='Binary that will be uploaded for analysis')
     parser.add_argument('cmdline_args', nargs='*', default=[],
                         help='Command line arguments passed to the binary.')
+    parser.add_argument('--date', help="Format YYYY-MM-DD. Useful for extracting different values from DGAs", default="2019-02-02", type=valid_date)
 
     if len(sys.argv) == 1:
         parser.print_help()
@@ -117,6 +118,7 @@ def submit(args):
             'data': base64.b64encode(args.binary.read()).decode(),
             'filename': args.binary.name,
             'cmdline_args': args.cmdline_args,
+            'date': args.date
         })
         if result is None:
             return
@@ -193,6 +195,13 @@ def request(server='zemu5349apim.azure-api.net', app='zemu5349pfuncapp',
 
     return data
 
+def valid_date(s):
+    try:
+        x = datetime.datetime.strptime(s, "%Y-%m-%d")
+    except ValueError:
+        msg = "Not a valid date: '{0}'.".format(s)
+        raise argparse.ArgumentTypeError(msg)
+    return s
 
 if __name__ == '__main__':
     main()
