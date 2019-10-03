@@ -100,7 +100,7 @@ def await_completion(args, resource, timeout=60):
 
         info('.')
         time.sleep(1)
-    info('\nNo response after %d seconds.\n'.format(timeout))
+    info('\nNo response after {0:d} seconds.\n'.format(timeout))
     return [None, False]
 
 
