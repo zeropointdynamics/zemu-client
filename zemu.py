@@ -92,6 +92,7 @@ def await_completion(args, resource, timeout=60):
     info('Queued. Awaiting results...')
     end_time = time.time() + timeout
     while time.time() < end_time:
+        time.sleep(1)
         result = request(method='GET', function=args.analysis_type,
                          params={'resource': resource})
         if result != None:
@@ -99,7 +100,6 @@ def await_completion(args, resource, timeout=60):
             return [result, True]
 
         info('.')
-        time.sleep(1)
     info('\nNo response after {0:d} seconds.\n'.format(timeout))
     return [None, False]
 
@@ -185,7 +185,10 @@ def request(server='zemu5349apim.azure-api.net', app='zemu5349pfuncapp',
 
     conn.close()
 
-    if response.status != 200:
+    if response.status == 102 or response.status == 502:
+        # In progress
+        return None 
+    elif response.status != 200:
         info('\nError in request: \n')
         info(data)
         return None
