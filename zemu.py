@@ -152,7 +152,7 @@ def info(msg):
     sys.stderr.flush()
 
 
-def request(server='zemu5349apim.azure-api.net', app='zemu5349pfuncapp',
+def request(server='zemuapim.azure-api.net', app='zemu5349pfuncapp',
             method='POST', function='strace', params={}):
     '''
     Log {msg} to stderr.
