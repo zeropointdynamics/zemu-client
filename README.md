@@ -114,3 +114,8 @@ Then, open the binary in IDA Pro and select *View->Load Zemu Overlay...* from th
 Select the overlay you just generated and press *Open*. The instructions executed in the run will now be highlighted, with comments added indicating register and memory values at the time of instruction execution (note that these values are from the *first* execution of the instruction). Functions that were executed will be now be prefixed with `zmu_`.
 
 ![Zemu Overlay](https://github.com/zeropointdynamics/zemu-client/raw/master/images/ida-plugin-overlay.png)
+
+
+### Sample Usage
+
+There are some usage samples in the [examples](https://github.com/zeropointdynamics/zemu-client/tree/master/examples) directory, generated from real malware samples.
