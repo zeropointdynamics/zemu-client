@@ -116,6 +116,6 @@ Select the overlay you just generated and press *Open*. The instructions execute
 ![Zemu Overlay](https://github.com/zeropointdynamics/zemu-client/raw/master/images/ida-plugin-overlay.png)
 
 
-### Sample Usage
+### More Examples
 
-There are some usage samples in the [examples](https://github.com/zeropointdynamics/zemu-client/tree/master/examples) directory, generated from real malware samples.
+There are additional samples in the [examples](https://github.com/zeropointdynamics/zemu-client/tree/master/examples) directory, generated from real malware interrogations.
