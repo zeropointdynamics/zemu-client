@@ -51,7 +51,7 @@ class ApplyZemuOverlay(idaapi.action_handler_t):
         for comment in zemu_dump['comments']:
             ea = comment['address']
             comment = str(comment['text'])
-            color = 0x73f0df
+            color = comment.get('color', 0x73f0df)
 
             # Set color of instruction line
             idaapi.set_item_color(ea, color)
