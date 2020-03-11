@@ -50,12 +50,12 @@ class ApplyZemuOverlay(idaapi.action_handler_t):
         # Apply the overlay data
         for comment in zemu_dump['comments']:
             ea = comment['address']
-            comment = str(comment['text'])
+            comment_text = str(comment['text'])
             color = comment.get('color', 0x73f0df)
 
             # Set color of instruction line
             idaapi.set_item_color(ea, color)
-            idaapi.set_cmt(ea, comment, False)
+            idaapi.set_cmt(ea, comment_text, False)
 
             # Set function name if not already changed
             idc.GetFunctionAttr(ea, idc.FUNCATTR_START)
